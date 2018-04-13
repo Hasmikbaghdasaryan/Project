@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+
+        <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+ <link rel="stylesheet" href="style.css">
+
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+ <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+ <!-- jQuery library -->
+
+
+<!-- Latest compiled JavaScript -->
+<script src='jquery-3.2.1.min.js'></script>
+<script src="script.js"></script> 
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+</head>
+<body>
+
+       <nav class="navbar navbar-inverse">
+            <div class="container">
+              <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+          <h2 class="logo">MODUS<span style="font-size: 23px;">versus</span></h2>
+            </div>
+            <div class="collapse navbar-collapse" id="myNavbar">
+    <ul class="nav navbar-nav">
+          <li class=" home"><a href="#">HOME</a></li>
+          <li><a href="#">ABOUT</a></li>
+          <li><a href="#">SERVICES</a></li>
+         <!--  <li><a href="#">PORTFOLIO</a> -->
+          <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">PORTFOLIO<span class="caret"></span></a>
+        <ul class="dropdown-menu">
+          <li><a href="#"><i class="fa fa-angle-right" ></i>Portfolio 2 column page</a></li>
+          <li><a href="#"><i class="fa fa-angle-right"></i>Portfolio 2 column page</a></li>
+          <li><a href="#"><i class="fa fa-angle-right"></i>Portfolio 2 column page</a></li>
+        </ul>
+      
+          </li>
+          <li><a href="#">BLOG</a></li>
+          <li><a href="#">FEATURES</a></li>
+          <li><a href="#">CONTACTS</a></li>
+     </ul>
+<!--  <form class="input">
+    <input type="text" id="search">
+   <input type="submit" value="Go" id="go">
+ </form> -->
+   <label class="expandSearch pull-right">
+       <input type="text" placeholder="Search..."  id="search" name="search">
+       <i class="material-icons" >search</i>
+   </label>
+ </div>
+</nav> 
+
+<!--slider -->
+<div class="slideshow">
+	<div class="mySlides bgText fade2" style="width: 100%">	
+		<h1 class="sliderText"><span>VESTIBULUM</span></h1>
+		<p id="border"> Maecenas tincidunt, augue et rutrum condimentum, libero lectus<br>
+		 mattis orci, ut commodo</p> 
+	</div>
+	</div>
+	<div class="mySlides bgText fade2" style="width: 100%">	
+		<h1 class="sliderText"><span>VESTIBULUM</span></h1>
+		<p id="border"> Maecenas tincidunt, augue et rutrum condimentum, libero lectus<br>
+		 mattis orci, ut commodo</p> 
+	</div>
+	<div class="mySlides bgText fade2" style="width: 100%">	
+		<h1 class="sliderText"><span>VESTIBULUM</span></h1>
+		<p id="border"> Maecenas tincidunt, augue et rutrum condimentum, libero lectus<br>
+		 mattis orci, ut commodo</p> 
+	</div>
+	<a class="prev" onclick="plusSlides(-1)">&#10094</a>
+	<a class="next" onclick="plusSlides(1)">&#10095</a>
+</div>
+<br>
+
+<div style="text-align:center;">
+	<span class="dot" onclick="currentSlide(1)"></span>
+	<span class="dot" onclick="currentSlide(2)"></span>
+	<span class="dot" onclick="currentSlide(3)"></span>
+</div>
+
+<!--slider ends-->
+<div class="header">
+   <div class="container">
+      <div class="row">
+      	  <div class="col-md-12 service">
+      	 	<button type="button" class="btn btn-danger">VIEW MORE</button>
+      	 	<p>Some of our top services</p>
+      	 	<p>Ut eleifend libero sed neque rhoncus consequat. Maecenas tincidunt, augue et rutrum condimentum, libero lectus mattis orci, ut commodo. </p>
+
+      	   </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="row">
+    <div class="col-md-3 col-sm-3 col-xs-12">
+       <div class="Btn1">
+     <div class="img"><img src="img/like.png"><p>SUSPENDISSE </p>
+         <p> Quisque id tellus quis risus vehicula vehicula ut turpis. In eros nulla, placerat vitae at, vehicula ut nunc. </p>
+     </div>
+
+      </div>
+      <button type="button" class="btn btn-danger read">read more</button>
+      
+ </div>
+   <div class="col-md-3  col-sm-3 col-xs-12" >
+   <div class="Btn1">
+     <div class="img"><img src="img/flag.png" class="black"><p>SUSPENDISSE </p>
+        <p> Quisque id tellus quis risus vehicula vehicula ut turpis. In eros nulla, placerat vitae at, vehicula ut nunc. </p>
+     </div>
+	</div>
+	<button type="button" class="btn btn-danger read">read more</button>
+    </div>
+      	
+     <div class="col-md-3 col-sm-3 col-xs-12">
+      	<div class="Btn1">
+        	<div class="img"><img src="img/key.png"><p>SUSPENDISSE </p>
+                <p> Quisque id tellus quis risus vehicula vehicula ut turpis. In eros nulla, placerat vitae at, vehicula ut nunc. </p>
+             </div>
+      	 </div>
+      	 	<button type="button" class="btn btn-danger read">read more</button>
+      	 </div>
+      	 
+      	 <div class="col-md-3 col-sm-3 col-xs-12">
+      	 	<div class="Btn1">
+      	 		<div class="img"><img src="img/scale.png"><p>SUSPENDISSE </p>
+                  <p> Quisque id tellus quis risus vehicula vehicula ut turpis. In eros nulla, placerat vitae at, vehicula ut nunc. </p>
+                </div>
+      	 	</div>
+      	 	<button type="button" class="btn btn-danger read">read more</button>
+      	 </div>
+      	 </div>    	
+
+
+           </div>
+      </div>
+
+    <div class="container-fluid content">
+          <div class="row">
+	        <div class="col-md-12 col-xs-12">
+	      <p class="modus">WHY MODUS VERSUS?</p>
+	         <h5>Capacitance cascading integer reflective interface data development high bus cache dithering transponder.  </h5>
+
+         </div>
+
+       </div>
+
+       <div class="row">
+	      <div class="col-md-4 col-sm-4 ">
+		     <div class="box1">
+               <span class="dotted"></span>
+               <span class="dotted2"></span>
+               <span class="dotted3"></span>
+		          <p>Your Image</p>
+		        </div>
+	      </div>
+	          <div class="col-md-4 col-sm-4 ">
+		          <div class="box2">
+               <span class="dotted"></span>
+               <span class="dotted2"></span>
+               <span class="dotted3"></span>
+               <span class="slash"></span>
+		          	<p>Your Image</p>
+		          </div>
+	          </div>
+	          <div class="col-md-4 col-sm-4 ">
+		          <div class="box3">
+                     <span class="slash"></span>
+ 		          	<p>Your Image</p></div>
+	          </div>
+       </div>
+
+       </div>
+    </div>
+<div class="middle">
+    <div class="container">
+       <div class="row">
+	   <div class="col-md-3 col-xs-12">
+       <div class="list">
+	<p>Why Choose Us ?</p>
+		<ul>
+		  <li><a href=""><i class="fa fa-arrow-right"></i>  Quisque at massa ipsum </a></li>
+		  <li><a href=""><i class="fa fa-arrow-right"></i> Maecenas a lorem augue, egestas </a></li>
+		  <li><a href=""><i class="fa fa-arrow-right"></i> Cras vitae felis at lacus eleifend </a></li>
+		  <li><a href=""><i class="fa fa-arrow-right"></i> Etiam auctor diam pellentesque </a></li>
+		  <li><a href=""><i class="fa fa-arrow-right"></i> Nulla ac massa at dolor</a></li>
+		  <li><a href=""><i class="fa fa-arrow-right"></i> Condimentum eleifend vitae vitae</a></li>
+  
+	   </ul>
+	  </div>
+	</div>
+	<div class="col-md-6  col-xs-12">
+		<p class="speed">Curabitur quis nisl in leo euismod venenatis eu in diam. Etiam auctor diam pellentesque lectus <span>vehicula mattis.</span> Nulla ac massa at dolor condimentum eleifend vitae vitae urna.</p>
+		<div class="imgs">			
+			<img src="img/50.png">
+			<img src="img/70.png">
+			<img src="img/80.png">
+			<img src="img/100.png">
+			
+		</div>
+     <div class="title">
+     	<p>SUSPENDISSE </p>
+     	<p>SUSPENDISSE </p>
+     	<p>SUSPENDISSE </p>
+     	<p>SUSPENDISSE </p>
+     </div>
+  </div>
+
+   <div class="col-md-3 col-xs-12">
+	  <div class="rightSide">
+	  <p>What Client’s Say ?</p>
+	  <p>Curabitur quis nisl in leo euismod venenatis eu in diam. Etiam auctor diam pellentesque lectus vehicula mattis. Nulla ac massa at dolor condimentum</p>
+   </div>
+  </div>
+</div>
+</div>
+<div class="container">
+   <div class="row">
+   	   <div class= "col-md-6 ">
+  	 <div class="client">
+            <p>Our Happy Clients</p>
+    </div>
+     </div>
+	    <div class= "col-md-6 ">
+
+    
+
+   <div class="btn-group pull-right">
+     <button class="previous" onclick="plusJquery(-1)"><i class="fa fa-chevron-left"></i></button>
+     <button class="next1" onclick="plusJquery(1)"><i class="fa fa-chevron-right"></i></button>   
+   </div>
+</div>
+         
+    </div>
+  
+<div class="row">
+     <div class= "col-md-12 col-xs-12">
+       <div class="jquery">
+       	  <div class="jquery1"> <img src="img/wife.png">jQuerY</div>
+       	  <div class="jquery1"><img src="img/wife.png"> jQuerY</div>
+       	  <div class="jquery1"> <img src="img/wife.png">jQuerY</div>
+       	  <div class="jquery1"><img src="img/wife.png"> jQuerY</div>
+       	  <div class="jquery1"> <img src="img/wife.png">jQuerY</div>
+       	  <div class="jquery1"><img src="img/wife.png"> jQuerY</div>
+       	  <div class="jquery1"> <img src="img/wife.png">jQuerY</div>
+       	  <div class="jquery1"><img src="img/wife.png"> jQuerY</div>
+
+       </div>
+       
+   </div>
+
+   </div>
+
+</div>
+</div>
+
+<div class="lastContent">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-4">
+	          <h2 class="logo" style="margin-top: 42px;">MODUS<span style="font-size: 23px;">versus</span></h2>
+          <p class="lorem">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam 
+          viverra euismod odio, gravida pellentesque urna varius vitae. 
+      Sed dui lorem, adipiscing in adipiscing et, interdum nec .</p><br>
+          <address>
+              Phone:   182 2569 5896<br>
+              e-mail:  info@modu.versus
+             
+          </address>
+			</div>
+			<div class="col-md-2">
+				<h4 class="company">Company</h4>
+			 <ul class="contact">
+			 	<li><a href=""><i class="fa fa-angle-right"></i> About</a></li><br>
+			 	<li><a href=""><i class="fa fa-angle-right"></i> FAQ</a></li><br>
+			 	<li><a href=""><i class="fa fa-angle-right"></i> Contact</a></li><br>
+			 	<li><a href=""><i class="fa fa-angle-right"></i> Terms</a></li><br>
+			 	<li><a href=""><i class="fa fa-angle-right"></i> Privacy</a></li><br>
+			 	<li><a href=""><i class="fa fa-angle-right"></i> Testimonials</a></li>
+			 </ul>
+			</div>
+			<div class="col-md-2">
+			    <h4 class="company">Community</h4>
+			 <ul class="contact">
+			 	<li><a href=""><i class="fa fa-angle-right"></i> Blog</a></li><br>
+			 	<li><a href=""><i class="fa fa-angle-right"></i> Forum</a></li><br>
+			 	<li><a href=""><i class="fa fa-angle-right"></i> Support</a></li><br>
+			 	<li><a href=""><i class="fa fa-angle-right"></i> Newsletter</a></li><br>
+
+			 </ul>
+			</div>
+			
+			<div class="col-md-4 col-xs-12">
+				<p class="from">from the<span style="font-weight: bold; padding: 10px;">Blog</span></p>
+				<div class="blog">
+					<div class="tumb"><img src="img/img.png">
+                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+                         <p style="color: #55928D;">26 May, 2013</p>
+					</div>
+					<br>
+                      	
+					<div class="tumb"><img src="img/img.png">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+                        <p style="color: #55928D;">26 May, 2013</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+ 
+ <footer>
+ 	<div class="container">
+ 	<div class="row">
+ 		<div class="col-md-6 col-md-12">
+ 			<p class="year">2013  ModusVersus</p>
+ 		</div>
+ 	<div class="col-md-6 col-md-12">
+ 			<span class="pull-right icon">
+ 			<a href="#"><i class="fa fa-facebook" ></i></a>
+ 			<a href=""><i class="fa fa-google-plus" ></i></a>	
+ 			<a href=""><i class="fa fa-twitter" ></i></a>
+ 			<a href=""><i class="fa fa-wifi"></i></a>
+ 			</span>
+ 		</div>
+ 	</div>
+ </div>
+ </footer>
+
+
+
+
+
+
+
+<script src="slider.js"></script> 
+<script src="buton.js"></script> 
+	</body>
+</html>
